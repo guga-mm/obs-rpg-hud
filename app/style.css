@@ -1,0 +1,195 @@
+@font-face {
+    font-family: 'Handodle';
+    src: url(/Handodle.ttf);
+}
+
+body, html {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    overflow: auto;
+}
+
+body {
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+}
+
+body > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    padding: 20px;
+}
+
+body > div a {
+    color: white;
+}
+
+h2 {
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Handodle';
+    font-size: 1.2rem;
+}
+
+p {
+    margin: 0;
+    text-align: center;
+}
+
+.characters {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1080px) {
+    .characters {
+        display: grid;
+        grid-template-columns: repeat(2, 350px);
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 700px) {
+    .characters {
+        display: grid;
+        grid-template-columns: repeat(1, 350px);
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.character {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.character > button {
+    width: max-content;
+    padding: 4px 15px;
+    align-self: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+}
+label.stat {
+    text-align: center;
+}
+
+.testeestendido {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+
+.testeestendido > div {
+    width: 130px;
+}
+
+button {
+    background-color: white;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0;
+    cursor: pointer;
+    transition: box-shadow 0.2s ease-in;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+button:hover {
+    box-shadow: 0 0 10px rgba(255, 177, 33, 0.8);
+}
+
+.changeStatButtons {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 7px;
+}
+
+.mudar {
+    width: 20px;
+    height: 20px;
+}
+
+.limpar {
+    height: 20px;
+}
+
+.changeSceneButtons {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.changeSceneButtons > button {
+    width: 150px;
+    font-size: 1.1rem;
+}
+
+.charcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.limparTodos {
+    width: 150px;
+    font-size: 1.1rem;
+    align-self: center;
+}
+
+.updateSceneButtons {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.scene {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sceneInfo {
+    font-size: 1.2rem;
+}
+
+.visiblestat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.visible {
+    width: 14px;
+    height: 14px;
+}
