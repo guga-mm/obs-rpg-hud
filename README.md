@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# OBS RPG HUD
 
-## Getting Started
+HUD para RPG com contador de falhas e sucesso para testes estendidos e contador de visibilidade para furtividade.
 
-First, run the development server:
+## Descrição
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Este projeto é um HUD (Heads-Up Display) para RPG, desenvolvido para facilitar o acompanhamento de falhas e sucessos em testes estendidos, além de fornecer um contador de visibilidade para furtividade.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tecnologias Utilizadas
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js**: Framework React para desenvolvimento web.
+- **JavaScript**: Linguagem de programação principal.
+- **TypeScript**: Superset do JavaScript com tipagem estática.
+- **CSS**: Estilização da aplicação.
+- **PowerShell**: Scripts de automação.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Funcionalidades
 
-## Learn More
+- **Contador de falhas e sucessos**: Acompanhe os resultados dos testes estendidos.
+- **Contador de visibilidade**: Gerencie a furtividade dos personagens.
+- **Interface amigável**: Design intuitivo e fácil de usar.
 
-To learn more about Next.js, take a look at the following resources:
+## Instalação
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Para rodar este projeto localmente, siga os passos abaixo:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/guga-mm/obs-rpg-hud.git
+    cd obs-rpg-hud
+    ```
 
-## Deploy on Vercel
+2. Instale as dependências:
+    ```bash
+    npm install
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. Rode o servidor de desenvolvimento:
+    ```bash
+    npm run dev
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. Abra o navegador e acesse `http://localhost:3000`.
+
+## Scripts Disponíveis
+
+- `npm run dev`: Inicia o servidor de desenvolvimento.
+- `npm run build`: Constrói a aplicação para produção.
+- `npm start`: Inicia o servidor em modo de produção.
+
+## Estrutura do Projeto
+
+- `/pages`: Contém as páginas da aplicação.
+- `/components`: Componentes reutilizáveis da interface.
+- `/styles`: Arquivos de estilização (CSS).
+- `/scripts`: Scripts de automação (PowerShell).
+
+## Contribuições
+
+Contribuições são bem-vindas! Por favor, abra uma issue ou envie um pull request.
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## Contato
+
+Para mais informações, entre em contato com [seu-email@exemplo.com](mailto:seu-email@exemplo.com).
